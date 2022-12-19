@@ -1,6 +1,6 @@
 package com.mytube;
 
-public class Main {
+public class App {
   public static void main(String[] args) {
     var video = new Video();
     video.setFileName("birthday.mp4");
