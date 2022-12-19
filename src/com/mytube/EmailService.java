@@ -1,8 +1,8 @@
 package com.mytube;
 
-public class EmailService {
-    public void sendEmail(User user) {
-        System.out.println("Notifying " + user.getEmail() + "...");
-        System.out.println("Done!\n");
-    }
+public class EmailService implements Sendable {
+  public void sendEmail(User user) {
+    System.out.println("Notifying " + user.getEmail() + "...");
+    System.out.println("Done!\n");
+  }
 }
